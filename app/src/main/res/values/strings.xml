@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">ArithmeticRunner</string>
+    <string name="op_config1">Digits</string>
+    <string name="add_op">+</string>
+    <string name="mul_op">*</string>
+    <string name="sub_op">-</string>
+    <string name="div_op">/</string>
+    <string name="op_config2">&amp;</string>
+    <string name="op_config3">Operator</string>
+    <string name="num_of_problems">Num</string>
+    <string name="record_title">Best Time</string>
+    <string name="best_time">1st</string>
+    <string name="second_time">2nd</string>
+    <string name="third_time">3rd</string>
+    <string name="start_main_btn_text">Start</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="eq_op">=</string>
+    <string name="int_seven">7</string>
+    <string name="int_one">1</string>
+    <string name="int_two">2</string>
+    <string name="int_three">3</string>
+    <string name="int_four">4</string>
+    <string name="int_five">5</string>
+    <string name="int_six">6</string>
+    <string name="int_eight">8</string>
+    <string name="int_nine">9</string>
+    <string name="int_zero">0</string>
+    <string name="clear_game_btn_text">Clear</string>
+    <string name="quit_game_btn_text">Quit</string>
+    <string name="next_game_btn_text">Next</string>
+    <string name="result">Result</string>
+    <string name="retry_result_btn_text">Retry</string>
+    <string name="home_result_btn_text">Home</string>
+    <string name="duration">duration</string>
+    <string name="penalty">penalty</string>
+    <string name="result_time">result time</string>
+    <string name="question_prefix">Q</string>
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>
