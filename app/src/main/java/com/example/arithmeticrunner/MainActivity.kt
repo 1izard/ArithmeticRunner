@@ -1,12 +1,12 @@
 package com.example.arithmeticrunner
 
 import android.os.Bundle
-import androidx.fragment.app.FragmentActivity
+import androidx.appcompat.app.AppCompatActivity
 import io.realm.Realm
 import io.realm.kotlin.createObject
 import io.realm.kotlin.where
 
-class MainActivity : FragmentActivity(), MainFragment.MainFragmentListener,
+class MainActivity : AppCompatActivity(), MainFragment.MainFragmentListener,
     GameFragment.GameFragmentListener, ResultFragment.ResultFragmentListener {
 
     private lateinit var realm: Realm
