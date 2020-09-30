@@ -13,7 +13,7 @@
         <TextView
             android:id="@+id/problem_no_item_text"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -22,7 +22,7 @@
         <TextView
             android:id="@+id/problem_expr_item_text"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:gravity="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -31,7 +31,7 @@
         <ImageView
             android:id="@+id/correct_item_image"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1.15"
             android:visibility="visible"
             app:srcCompat="@drawable/ic_baseline_radio_button_unchecked_24"

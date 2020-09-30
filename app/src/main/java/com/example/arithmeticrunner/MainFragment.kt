@@ -15,7 +15,7 @@ class MainFragment : Fragment(), AdapterView.OnItemSelectedListener {
         private val digitSpinnerArray = listOf("1", "2", "3")
         private val operatorSpinnerArray =
             listOf(Operator.ADD.opStr, Operator.SUB.opStr, Operator.MUL.opStr, Operator.DIV.opStr)
-        private val problemsNumSpinnerArray = listOf("3", "10", "20", "30", "50", "100")
+        private val problemsNumSpinnerArray = listOf("10", "20", "30", "50", "100")
     }
 
     private var activityCallBack: MainFragmentListener? = null
